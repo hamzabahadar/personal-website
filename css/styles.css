@@ -1,0 +1,149 @@
+body {
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 30px auto 0 auto;
+  color: #edf5e0;
+  font-size: 560%;
+  font-family: "Sacramento", cursive;
+}
+h2 {
+  font-family: " Montserrat ", sans-serif;
+  font-size: xx-large;
+  color: #05396b;
+  padding: 20px;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #05396b;
+}
+p {
+  line-height: 2;
+  padding: 20px 0;
+}
+
+/************************ Header ************************/
+
+.aprogrammer {
+  color: #edf5e0;
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+}
+.top-container {
+  background-color: #5cdb94;
+  position: relative;
+  padding-top: 100px;
+}
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 40px;
+  right: 300px;
+}
+
+/************************ Body ************************/
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+.myskills-heading {
+  margin-bottom: 100px;
+}
+.intro {
+  width: 35%;
+  margin: auto;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  border-radius: 80px;
+}
+
+.skill-row {
+  text-align: left;
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+
+.skill1 {
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+.skill2 {
+  width: 25%;
+  float: right;
+}
+.skill1-para {
+  margin-bottom: 40px;
+}
+/************************ Footer ************************/
+
+.bottom-container {
+  background-color: #5cdb94;
+  margin-top: 80px;
+  padding: 50px 0 20px;
+}
+a {
+  text-decoration: none;
+  color: #05396b;
+  margin: 10px 20px;
+  font-family: "Montserrat", sans-serif;
+}
+a:hover {
+  color: #eaf6f6;
+}
+
+.surname {
+  font-family: "Merriweather", serif;
+  color: #edf5e0;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.btn {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #389583;
+  padding: 10px 20px 10px 20px;
+
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #5cdb94;
+  text-decoration: none;
+}
+
+.contact-para {
+  width: 40%;
+  margin: 30px auto 50px auto;
+}
+
+/* 
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive;
+*/
